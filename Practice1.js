@@ -10,6 +10,11 @@
 // }
 // console.log("Git Pull")
 
+
+
+
+
+
 //2 Find the Maximum of Two Numbers
 // var num1=12
 // var num2=7
@@ -23,21 +28,32 @@
 //     console.log(num2+" is Greater than "+num1)
 // }
 
+
+
+
+
+
+
+
 // 3. Check Leap Year
 // Definition: Check if a given year is a leap year.
 // Input: 2020
 // Output: Leap Year
 
-var year=2020
+// var year=2020
 
-if(year%4==0)
-{
-    console.log("Leap year")
-}
-else
-{
-    console.log("Not a Leap year")
-}
+// if(year%4==0)
+// {
+//     console.log("Leap year")
+// }
+// else
+// {
+//     console.log("Not a Leap year")
+// }
+
+
+
+
 
 
 // 4. Sum of Natural Numbers
@@ -45,10 +61,33 @@ else
 // Input: 5
 // Output: 15
 
+// var num=5
+// var sum=0
+
+// for(var i=1;i<=num;i++)
+// {
+//     sum+=i
+// }
+// console.log("Sum of Natural number till "+num+" is "+sum)
+
+
+
+
 // 5. Factorial of a Number
 // Definition: Calculate factorial of a number.
 // Input: 4
 // Output: 24
+
+
+// var num=4
+// var fact=1
+// for(var i=num;i>0;i--)
+// {
+//     fact*=i
+// }
+// console.log("Factorial of give number "+num+" is "+fact)
+
+
 
 // 6. Print Multiplication Table
 // Definition: Display multiplication table of a number up to 10.
@@ -58,10 +97,28 @@ else
 // ...
 // 3 x 10 = 30
 
+// var num=3
+// for(var i=1;i<=10;i++)
+// {
+    // console.log("3 * ",i," = ",num*i)
+
+// }
+
+
+
+
+
 // 7. Reverse a Number
 // Definition: Reverse the digits of a number.
 // Input: 1234
 // Output: 4321
+
+
+
+
+
+
+
 
 // 8. Palindrome Check (Number)
 // Definition: Check if a number reads the same backward.
