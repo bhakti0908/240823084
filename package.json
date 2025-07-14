@@ -1,0 +1,20 @@
+{
+  "name": "240823084",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhakti0908/240823084.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhakti0908/240823084/issues"
+  },
+  "homepage": "https://github.com/bhakti0908/240823084#readme"
+}
