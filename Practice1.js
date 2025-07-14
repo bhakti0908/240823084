@@ -8,3 +8,4 @@ else
 {
     console.log("Number is Odd")
 }
+console.log("Git Pull")
