@@ -257,57 +257,151 @@
 // Input: a
 // Output: Vowel
 
+// var input="a"
+// var vowels = ['a','A', 'e','E', 'i','I', 'o','O', 'u','U'];
+// for (var i=0;i<vowels.length;i++)
+// {
+//     if(input==vowels[i])
+//     {
+//         console.log("Vowel")
+//         break;
+//     }   
+//     else
+//     {
+//         console.log("Consonant")
+//         break;  
+//     } 
+// }
+
 // 15. Simple Calculator
 // Definition: Perform +, -, *, / between two numbers.
 // Input: 4 + 2
 // Output: 6
+
+// var input="20 / 5"
+// var d=input.split(" ")
+// var num1=parseInt(d[0])
+// var op=(d[1])
+// var num2=parseInt(d[2])
+
+// if(op=="+")     
+// {
+//     console.log("Addition of ",num1," and ",num2," is :",(num1+num2))
+// }
+// else if(op=="-")     
+// {
+//     console.log("Substraction of ",num1," and ",num2," is :",(num1-num2))
+// }
+// else if(op=="/")     
+// {
+//     console.log("Multiplication of ",num1," and ",num2," is :",(num1/num2))
+// }
+// else if(op=="*")     
+// {
+//     console.log("Division of ",num1," and ",num2," is :",(num1*num2))
+// }
+// else if(op=="%")     
+// {
+//     console.log("Modulus of ",num1," and ",num2," is :",(num1%num2))
+// }
 
 // 16. Find GCD (HCF)
 // Definition: Calculate the greatest common divisor of two numbers.
 // Input: 20 28
 // Output: 4
 
-var input="20 28"
-var d=input.split(" ")
-var num1=parseInt(d[0])
-var num2=parseInt(d[1])
+// var input="20 28"
+// var d=input.split(" ")
+// var num1=parseInt(d[0])
+// var num2=parseInt(d[1])
 
-var div,num=0
+// var div,num=0
 
-if(num1<num2)
-{
-    num=num1
-}
-else
-{
-    num=num2
-}
+// if(num1<num2)
+// {
+//     num=num1
+// }
+// else
+// {
+//     num=num2
+// }
 
-for(var i=2;i<=num;i++)
-{
-    if(num1%i==0 && num2%i==0)
-    {
-        div=i
-    }
-}
-console.log(div)
+// for(var i=2;i<=num;i++)
+// {
+//     if(num1%i==0 && num2%i==0)
+//     {
+//         div=i
+//     }
+// }
+// console.log(div)
 
 // 17. Check Perfect Number
 // Definition: A number whose sum of divisors equals itself.
 // Input: 28
 // Output: Perfect
 
+// var num=29
+// var sum=0
+
+// for (var i=1;i<num;i++)
+// {
+//     if(num%i==0)
+//     {
+//         sum+=i
+//     }
+// }
+// console.log("Sum of divisors of "+num+" is "+sum)
+// if(sum==num)
+// {
+//     console.log("Perfect Number")
+// }
+// else{
+//     console.log("Not a Perfect Number")
+// }
+
 // 18. Print All Divisors
 // Definition: Display all positive divisors of a number.
 // Input: 10
 // Output: 1 2 5 10
+
+// var num=28
+
+// var sum="Divisors of "+num+" is "
+// for (var i=1;i<num;i++)
+// {
+//     if(num%i==0)
+//     {
+//         sum+=i+" "
+//     }
+// }
+// console.log(sum.trim())
+
 
 // 19. Number is Positive, Negative or Zero
 // Definition: Check if number is +ve, -ve, or zero.
 // Input: -5
 // Output: Negative
 
+// var num=-5
+// if(num>0)
+// {
+//     console.log("Positive")
+// }   
+// else if(num<0)
+// {
+//     console.log("Negative")
+// }
+// else
+// {
+//     console.log("Zero")
+// }
+
 // 20. Find Power (Exponentiation)
 // Definition: Compute a raised to the power b (a^b).
 // Input: 2 3
 // Output: 8
+
+// var num=2
+// var pow=3
+
+// console.log("Power of "+num+" to "+pow+" is "+Math.pow(num,pow))
