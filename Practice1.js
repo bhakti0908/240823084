@@ -114,8 +114,19 @@
 // Output: 4321
 
 
+// var num=1289
+// var rem=0
+// var rev=0
 
 
+// while(num!=0)
+// {
+//     rem=num%10
+//     rev=rev*10+rem
+//     num=Math.floor(num/10)
+// }
+
+//     console.log("Reversed string :"+rev)
 
 
 
@@ -125,20 +136,78 @@
 // Input: 121
 // Output: Palindrome
 
+// var num=121
+// var rem=0
+// var rev=0
+// var sam=num
+
+// while(num!=0)
+// {
+//     rem=num%10
+//     rev=rev*10+rem
+//     num=Math.floor(num/10)
+// }
+// if(sam==rev)
+// {
+//     console.log("Palindrome :"+rev)
+// }
+// else{
+//     console.log("Not Palindrome :"+rev) 
+// }
+
+
 // 9. Check Prime Number
 // Definition: Check whether the input number is prime.
 // Input: 11
 // Output: Prime
+
+// var num=12
+// for(var i=2 ;i<=11;i++)
+// {
+//     if(num%i==0)
+//     {
+//         console.log("Not Prime")
+//         break;
+//     }
+//     else{
+//         console.log(" Prime")
+//         break;
+//     }
+// }
 
 // 10. Count Digits in a Number
 // Definition: Count how many digits a number contains.
 // Input: 5023
 // Output: 4
 
+// var num=12145165
+// var count=0
+
+// while(num!=0)
+// {
+//     num=Math.floor(num/10)
+//     count++
+// }
+
+// console.log(count)
+
 // 11. Sum of Digits
 // Definition: Calculate the sum of all digits in a number.
 // Input: 123
 // Output: 6
+
+// var num=123
+// var rem=0
+// var a=0
+// var sam=num
+
+// while(num!=0)
+// {
+//     rem=num%10
+//     a+=rem
+//     num=Math.floor(num/10)
+// }
+// console.log(a)
 
 // 12. Check Armstrong Number
 // Definition: Check if the number is equal to the sum of its digits each raised to the power of
@@ -146,10 +215,42 @@
 // Input: 153
 // Output: Armstrong
 
+// var num=152
+// var rem=0
+// var a=0
+// var len=num.toString().length
+// while(num!=0)
+// {
+//     rem=num%10
+//     a=a+(Math.pow(rem,len))
+//     num=Math.floor(num/10)
+// }
+// if(a==num){
+//     console.log("ArmStrong")
+// }
+// else{
+//     console.log("Not ArmStrong")
+// }
+
+
 // 13. Generate Fibonacci Series
 // Definition: Generate the first n Fibonacci numbers.
 // Input: 5
 // Output: 0 1 1 2 3
+
+// var num=5
+// var a=0
+// var b=1
+// var c=0
+// console.log(a)
+// console.log(b)
+//  for(var i=0;i<=5;i++)
+//  {
+//     c=a+b
+//     a=b
+//     b=c   
+//     console.log(c)
+//  }
 
 // 14. Check Vowel or Consonant
 // Definition: Determine if a given character is a vowel.
@@ -165,6 +266,31 @@
 // Definition: Calculate the greatest common divisor of two numbers.
 // Input: 20 28
 // Output: 4
+
+var input="20 28"
+var d=input.split(" ")
+var num1=parseInt(d[0])
+var num2=parseInt(d[1])
+
+var div,num=0
+
+if(num1<num2)
+{
+    num=num1
+}
+else
+{
+    num=num2
+}
+
+for(var i=2;i<=num;i++)
+{
+    if(num1%i==0 && num2%i==0)
+    {
+        div=i
+    }
+}
+console.log(div)
 
 // 17. Check Perfect Number
 // Definition: A number whose sum of divisors equals itself.
