@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+  
+      "start": "nodemon form_route.js"
+    
   },
   "repository": {
     "type": "git",
@@ -18,8 +21,10 @@
   },
   "homepage": "https://github.com/bhakti0908/240823084#readme",
   "dependencies": {
+    "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "moment": "^2.30.1",
+    "nodemon": "^3.1.10",
     "path": "^0.12.7"
   }
 }
