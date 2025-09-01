@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
   
-      "start": "nodemon form_route.js"
+      "start": "nodemon Exam/routes_all.js"
     
   },
   "repository": {
